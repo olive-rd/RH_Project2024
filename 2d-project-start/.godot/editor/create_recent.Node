@@ -1,4 +1,5 @@
 CollisionShape2D
+Area2D
 TileMap
 StaticBody2D
 Timer
