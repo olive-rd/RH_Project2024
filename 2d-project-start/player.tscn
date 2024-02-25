@@ -96,4 +96,4 @@ sprite_frames = SubResource("SpriteFrames_dpgie")
 animation = &"idle"
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(6, 6)
+zoom = Vector2(5, 5)
