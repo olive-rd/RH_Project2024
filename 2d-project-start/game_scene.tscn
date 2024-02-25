@@ -1,9 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://ulgeq1vv3ji6"]
+[gd_scene load_steps=13 format=3 uid="uid://ulgeq1vv3ji6"]
 
 [ext_resource type="Texture2D" uid="uid://bedsvpug8awp5" path="res://tf_jungle/tf_jungle_tileset.png" id="2_1ilj6"]
 [ext_resource type="PackedScene" uid="uid://ctgwl7eb2fim0" path="res://player.tscn" id="2_t21xe"]
 [ext_resource type="Texture2D" uid="uid://byxkmw87uje6d" path="res://tf_jungle/DesertTileset16x16/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png" id="2_xawhn"]
 [ext_resource type="PackedScene" uid="uid://ba0bwmr2hnkm5" path="res://TREEEEEE.tscn" id="4_lik3x"]
+[ext_resource type="PackedScene" uid="uid://cvl1s16cwqa8e" path="res://enemy.tscn" id="5_m3pa2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ecmik"]
 texture = ExtResource("2_1ilj6")
@@ -466,13 +467,13 @@ sources/0 = SubResource("TileSetAtlasSource_ecmik")
 sources/1 = SubResource("TileSetAtlasSource_i7vnk")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uo8i1"]
-size = Vector2(1113, 93)
+size = Vector2(1314, 144)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vumwq"]
-size = Vector2(108, 570)
+size = Vector2(172, 570)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ofl0c"]
-size = Vector2(116.25, 645)
+size = Vector2(207.125, 645)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1a1r8"]
 size = Vector2(1047, 74)
@@ -499,15 +500,15 @@ position = Vector2(99, 12)
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(476.5, -61.5)
+position = Vector2(475, -87)
 shape = SubResource("RectangleShape2D_uo8i1")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(-61, 270)
+position = Vector2(-93, 270)
 shape = SubResource("RectangleShape2D_vumwq")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(995, 294)
+position = Vector2(1040.44, 294)
 shape = SubResource("RectangleShape2D_ofl0c")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
@@ -516,3 +517,6 @@ shape = SubResource("RectangleShape2D_1a1r8")
 
 [node name="StaticBody2D2" parent="." instance=ExtResource("4_lik3x")]
 position = Vector2(133, 128)
+
+[node name="Enemy" parent="." instance=ExtResource("5_m3pa2")]
+position = Vector2(-128, 53)

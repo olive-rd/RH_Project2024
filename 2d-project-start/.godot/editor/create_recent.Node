@@ -1,6 +1,6 @@
 TileMap
 CollisionShape2D
+CharacterBody2D
 StaticBody2D
 Camera2D
 AnimatedSprite2D
-CharacterBody2D
