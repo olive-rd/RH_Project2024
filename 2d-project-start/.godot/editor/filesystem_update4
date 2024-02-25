@@ -1,3 +1,5 @@
-res://mob.tscn
-res://mob.gd
+res://game_scene.tscn
 res://player.tscn
+res://TREEEEEE.tscn
+res://enemy.tscn
+res://enemy.gd
