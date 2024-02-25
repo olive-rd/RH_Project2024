@@ -4,8 +4,9 @@
 [ext_resource type="Texture2D" uid="uid://c7e8bj8wby20w" path="res://characters/happy_boo/download/male/kuro/base/idle.png" id="2_hyh44"]
 [ext_resource type="Texture2D" uid="uid://ccvaeiws76a30" path="res://characters/happy_boo/download/male/kuro/base/move.png" id="3_hp3fi"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_arg2u"]
-radius = 11.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g023p"]
+radius = 9.0
+height = 20.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4ao8j"]
 atlas = ExtResource("2_hyh44")
@@ -87,8 +88,12 @@ animations = [{
 script = ExtResource("1_1n6fw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_arg2u")
+position = Vector2(1, 0)
+shape = SubResource("CapsuleShape2D_g023p")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_dpgie")
 animation = &"idle"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(6, 6)

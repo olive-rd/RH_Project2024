@@ -1,9 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://ulgeq1vv3ji6"]
+[gd_scene load_steps=13 format=3 uid="uid://ulgeq1vv3ji6"]
 
 [ext_resource type="Texture2D" uid="uid://bedsvpug8awp5" path="res://tf_jungle/tf_jungle_tileset.png" id="2_1ilj6"]
 [ext_resource type="PackedScene" uid="uid://ctgwl7eb2fim0" path="res://player.tscn" id="2_t21xe"]
 [ext_resource type="Texture2D" uid="uid://byxkmw87uje6d" path="res://tf_jungle/DesertTileset16x16/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png" id="2_xawhn"]
 [ext_resource type="PackedScene" uid="uid://ba0bwmr2hnkm5" path="res://TREEEEEE.tscn" id="4_lik3x"]
+[ext_resource type="PackedScene" uid="uid://ccy3hmldonvx" path="res://mob.tscn" id="5_mj4sw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ecmik"]
 texture = ExtResource("2_1ilj6")
@@ -494,7 +495,7 @@ layer_1/z_index = 0
 layer_1/tile_data = PackedInt32Array(524329, 196608, 4, 524330, 262144, 4, 1769519, 196608, 4, 1769520, 262144, 4, 393232, 196608, 4, 393233, 262144, 4, 1376281, 196608, 4, 1376282, 262144, 4, 1245189, 196608, 5, 1114131, 196608, 5, 458784, 196608, 5, 1703989, 196608, 5, 196656, 196608, 5, 262193, 196608, 5, 1245226, 458752, 4, 1245227, 524288, 4, 131097, 458752, 4, 131098, 524288, 4, 917534, 458752, 4, 917535, 524288, 4, 1179658, 458752, 4, 1179659, 524288, 4, 1769481, 327680, 5, 1638420, 327680, 5, 524314, 327680, 5, 262148, 327680, 5, 786436, 327680, 5, 1179700, 131072, 3, 589877, 131072, 3, 786478, 131072, 3, 1507364, 131072, 3, 983076, 131072, 3, 524301, 131072, 3, 65549, 131072, 3)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_t21xe")]
-position = Vector2(99, 12)
+position = Vector2(332, 103)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
@@ -516,3 +517,6 @@ shape = SubResource("RectangleShape2D_1a1r8")
 
 [node name="StaticBody2D2" parent="." instance=ExtResource("4_lik3x")]
 position = Vector2(133, 128)
+
+[node name="Mob" parent="." instance=ExtResource("5_mj4sw")]
+position = Vector2(608, 192)
