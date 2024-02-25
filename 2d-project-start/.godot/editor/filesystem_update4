@@ -1,3 +1,5 @@
-res://player.tscn
+res://game_scene.tscn
 res://mob.gd
+res://player.tscn
 res://mob.tscn
+res://player.gd

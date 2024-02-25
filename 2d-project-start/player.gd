@@ -1,6 +1,9 @@
 extends CharacterBody2D
 
+signal game_over
+
 const speed = 100
+var health = 100.0
 var current_dir = "right"
 func _physics_process(delta):
 	player_movement(delta)
@@ -35,6 +38,12 @@ func player_movement(delta):
 		
 	move_and_slide()
 	
+	const damage_rate = 5.0
+	var overlapping_mobs = %HitBox.get_overlapping_bodies()
+	if overlapping_mobs.size() > 0:
+		health -= damage_rate * overlapping_mobs.size() * delta
+	if health <= 0.0:
+		game_over.emit()
 	
 func _ready():
 	$AnimatedSprite2D.play("idle")
