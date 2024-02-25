@@ -42,6 +42,7 @@ func player_movement(delta):
 	var overlapping_mobs = %HitBox.get_overlapping_bodies()
 	if overlapping_mobs.size() > 0:
 		health -= damage_rate * overlapping_mobs.size() * delta
+		%ProgressBar.value = health
 	if health <= 0.0:
 		game_over.emit()
 	
