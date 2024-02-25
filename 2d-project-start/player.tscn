@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://ctgwl7eb2fim0"]
+[gd_scene load_steps=19 format=3 uid="uid://ctgwl7eb2fim0"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_1n6fw"]
 [ext_resource type="Texture2D" uid="uid://c7e8bj8wby20w" path="res://characters/happy_boo/download/male/kuro/base/idle.png" id="2_hyh44"]
@@ -6,8 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://c2m3qypqd16e1" path="res://gun.tscn" id="4_5sn5u"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g023p"]
-radius = 9.0
-height = 20.0
+radius = 4.0
+height = 24.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4ao8j"]
 atlas = ExtResource("2_hyh44")
@@ -85,11 +85,19 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_mmypp"]
+radius = 12.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k4yy0"]
+bg_color = Color(0.388235, 0.0470588, 0.0901961, 0.47451)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_invmv"]
+bg_color = Color(0.360784, 0.384314, 0.133333, 1)
+
 [node name="RowdySaurus" type="CharacterBody2D"]
 script = ExtResource("1_1n6fw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, 0)
 shape = SubResource("CapsuleShape2D_g023p")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -100,3 +108,21 @@ animation = &"idle"
 zoom = Vector2(5, 5)
 
 [node name="Gun" parent="." instance=ExtResource("4_5sn5u")]
+
+[node name="HitBox" type="Area2D" parent="."]
+unique_name_in_owner = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
+shape = SubResource("CircleShape2D_mmypp")
+debug_color = Color(0.862745, 0.341176, 0.317647, 0.419608)
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+unique_name_in_owner = true
+offset_left = -12.0
+offset_top = -15.0
+offset_right = 12.0
+offset_bottom = -11.0
+theme_override_styles/background = SubResource("StyleBoxFlat_k4yy0")
+theme_override_styles/fill = SubResource("StyleBoxFlat_invmv")
+value = 100.0
+show_percentage = false
