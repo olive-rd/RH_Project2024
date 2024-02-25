@@ -1,0 +1,486 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 42%
+	Available Physical Memory: 9189m/15970m
+	Available Page File: 8079m/18402m
+	Available Virtual Memory: 134213456m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 32m
+	Working Set Size: 32m
+	Quota Peak Page Pool Usage: 253k
+	Quota Page Pool Usage: 251k
+	Quota Peak Non Paged Pool Usage:18k
+	Quota Non Paged Pool Usage: 17k
+	Page File Usage: 6m
+	Peak Page File Usage: 6m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 556225
+[00:00:00]: Current time: Sat Jun 10 23:17:40 2023
+
+[00:00:00]: Don't Starve Together: 556225 WIN32_STEAM
+[00:00:00]: Build Date: 1984
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: Steam AppBuildID: 11192167
+[00:00:00]: ....Done
+[00:00:00]: PersistUserStorage is now APP:Klei//DoNotStarveTogether/1088324838/ 
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (32748)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:4.53
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: THREAD - started 'IC' (13616)
+[00:00:00]: Texture Streaming: ENABLED
+[00:00:00]: Texture Streaming: DISABLED
+[00:00:00]: Threaded Renderer: ENABLED
+[00:00:00]: THREAD - started 'SimUpdateThread' (20680)
+[00:00:00]: THREAD - started 'RenderThread' (31628)
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: THREAD - started 'StreamInput' (28384)
+[00:00:00]: loaded ping_cache
+[00:00:00]: Offline user ID: OU_76561199048590566
+[00:00:00]: Cached userid loaded:
+[00:00:00]: SteamID: 76561199048590566
+[00:00:00]: THREAD - started 'AsynTextureLoadthread' (30060)
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Home
+    version                   10.0.22621
+    platformSpecific          SP 0.0
+    architecture              64-bit
+  CPU                       
+    clockSpeed                1498
+    name                      Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+    manufacturer              GenuineIntel
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    megsOfRam                 1024
+    videoModeDescription      2736 x 1824 x 4294967296 colors
+    name                      Intel(R) Iris(R) Plus Graphics
+    driverVersion             27.20.100.9621
+    driverDate                20210615000000.000000-000
+    refreshRate               59
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'AsynTextureLoadthread' (14848)
+[00:00:00]: WindowManager::Initialize
+[00:00:00]: CreateWindow: Requesting 2736,1683 - 5/6/5 - -1/-1/-1 - 0
+[00:00:00]: CreateEGLContext: 16 configs found
+[00:00:00]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:00]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:00]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:00]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:00]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:00]:      5: 5/5/5 -  1/ 0/ 0 - 0
+[00:00:00]:      6: 5/5/5 -  0/16/ 0 - 0
+[00:00:00]:      7: 5/5/5 -  1/16/ 0 - 0
+[00:00:00]:      8: 5/5/5 -  0/24/ 0 - 0
+[00:00:00]:      9: 5/5/5 -  1/24/ 0 - 0
+[00:00:00]:     10: 5/5/5 -  0/24/ 8 - 0
+[00:00:00]:     11: 5/5/5 -  1/24/ 8 - 0
+[00:00:00]:     12: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:00]:     13: 8/8/8 -  8/16/ 0 - 0
+[00:00:00]:     14: 8/8/8 -  8/24/ 0 - 0
+[00:00:00]:     15: 8/8/8 -  8/24/ 8 - 0
+[00:00:00]: RestoreWindowPosition
+[00:00:00]:    Saved Client Pos (0 x 45)
+[00:00:00]:    Adjusted Window Pos (-13 x -13)
+[00:00:00]: EnsureWindowOnScreen
+[00:00:00]:    All good.
+[00:00:00]: GLInfo
+[00:00:00]: ~~~~~~
+[00:00:00]: GL_VENDOR: Google Inc.
+[00:00:00]: GL_RENDERER: ANGLE (Intel(R) Iris(R) Plus Graphics)
+[00:00:00]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:00]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:00]: THREAD - started 'WindowsInputManager' (2756)
+[00:00:00]: OpenGL extensions (19, 19):
+[00:00:00]: GL_ANGLE_depth_texture
+[00:00:00]: GL_ANGLE_framebuffer_blit
+[00:00:00]: GL_ANGLE_framebuffer_multisample
+[00:00:00]: GL_ANGLE_instanced_arrays
+[00:00:00]: GL_ANGLE_pack_reverse_row_order
+[00:00:00]: GL_ANGLE_texture_compression_dxt3
+[00:00:00]: GL_ANGLE_texture_compression_dxt5
+[00:00:00]: GL_ANGLE_texture_usage
+[00:00:00]: GL_ANGLE_translated_shader_source
+[00:00:00]: GL_EXT_read_format_bgra
+[00:00:00]: GL_EXT_robustness
+[00:00:00]: GL_EXT_texture_compression_dxt1
+[00:00:00]: GL_EXT_texture_format_BGRA8888
+[00:00:00]: GL_EXT_texture_storage
+[00:00:00]: GL_OES_get_program_binary
+[00:00:00]: GL_OES_packed_depth_stencil
+[00:00:00]: GL_OES_rgb8_rgba8
+[00:00:00]: GL_OES_standard_derivatives
+[00:00:00]: GL_OES_texture_npot
+[00:00:00]: GL_MAX_TEXTURE_SIZE = 8192
+[00:00:00]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:00]: GL_MAX_RENDERBUFFER_SIZE = 8192
+[00:00:00]: GL_MAX_VIEWPORT_DIMS = 8192, 8192
+[00:00:00]: GL_MAX_VARYING_VECTORS = 10
+[00:00:00]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:00]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:00]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:00]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:00]: 4 compressed texture formats
+[00:00:00]: texture format 0x83f0
+[00:00:00]: texture format 0x83f1
+[00:00:00]: texture format 0x83f2
+[00:00:00]: texture format 0x83f3
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:02]: Buffers initialize: Okay
+[00:00:02]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:02]: GameSpecific initialize: Okay
+[00:00:02]: cGame::StartPlaying
+[00:00:02]: AppVersion::GetArchitecture() x64
+[00:00:02]: LOADING LUA
+[00:00:02]: DoLuaFile scripts/main.lua
+[00:00:02]: DoLuaFile loading buffer scripts/main.lua
+[00:00:02]:   taskgrouplist:	default	Together	
+[00:00:02]:   taskgrouplist:	classic	Classic	
+[00:00:02]:   taskgrouplist:	cave_default	Underground	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:02]: Running main.lua
+	
+[00:00:02]: loaded modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence.
+	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: PlayerDeaths loaded morgue	1451	
+[00:00:05]: PlayerHistory loaded player_history (v2) len:771	
+[00:00:05]: ServerPreferences loaded server_preferences	2	
+[00:00:05]: ConsoleScreenSettings loaded consolescreen	18	
+[00:00:05]: bloom_enabled	true	
+[00:00:05]: EnableShadeRenderer: 	true	
+[00:00:05]: loaded shardsaveindex	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Klump load on boot started.	
+[00:00:05]: Klump files loaded: 	0	
+[00:00:07]: 	Load FE	
+[00:00:07]: 	Load FE: done	
+[00:00:07]: THREAD - started 'FilesExistAsyncThread' (27028)
+[00:00:07]: FilesExistAsyncThread started (22365 files)...
+[00:00:07]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1088324838/client_save/blocklist.txt (Failure)
+[00:00:07]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1088324838/client_save/adminlist.txt (Failure)
+[00:00:07]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1088324838/client_save/whitelist.txt (Failure)
+[00:00:07]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=US&lang=english&version=556225	
+[00:00:07]: Check for write access: TRUE
+[00:00:07]: Check for read access: TRUE
+[00:00:07]: Available disk space for save files: 55299 MB
+[00:00:07]: ModIndex: Load sequence finished successfully.	
+[00:00:07]: Reset() returning
+[00:00:07]: FMOD detected a new audio device and set audio to the current default device.
+[00:00:09]: ... FilesExistAsyncThread complete
+[00:00:27]: [MOTD] Done Loading.	
+[00:00:27]: Do AutoLogin	
+[00:00:27]: [Steam] Auth Session Ticket requested...
+[00:00:27]: [Steam] Got Auth Session Ticket
+[00:00:28]: [200] Account Communication Success (3)
+[00:00:28]: Logging in as KU_LnRtDLGw
+[00:00:29]: There is no active event to get the status of.
+[00:00:29]: could not load pending_keyvalues_prod
+[00:00:29]: loaded inventory_cache_prod
+[00:00:29]: using inventory state token from cached file
+[00:00:30]: saved APP:Klei//DoNotStarveTogether/1088324838/client_save/inventory_cache_prod
+[00:00:30]: saved APP:Klei//DoNotStarveTogether/1088324838/client_save/inventory_cache_prod_sig
+[00:00:30]: [Workshop] ItemQuery got this many results: 5, matching: 5
+[00:00:30]: [Workshop] ModQuery got 5 results
+[00:00:30]: [Workshop] ModQuery queued to download IDs: 1876137475 1608191708 1120124958 836583293 376333686
+[00:00:30]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:30]: [Workshop] ItemQuery finished downloading everything
+[00:00:32]: [Workshop] CancelDownloads for all pending downloads
+[00:00:33]: Friends are currently playing in 3 games(s)!
+[00:00:33]: You belong to 0 clan(s)!
+[00:00:33]: Downloaded server listings - chunk 4 (eu-central-1): 846 filtered completed: 668
+[00:00:33]: Downloaded server listings - chunk 3 (us-east-1): 2275 filtered completed: 1724
+[00:00:33]: Downloaded server listings - chunk 2 (ap-southeast-1): 3399 filtered completed: 4328
+[00:00:34]: Downloaded server listings - chunk 1 (ap-east-1): 11144 filtered completed: 12959
+[00:00:36]: [Connect] Got new join server request from lua
+[00:00:36]: [Connect] Init client connection to (S) <700908973307452733>
+[00:00:36]: [Connect] PendingConnection::Reset(true)
+[00:00:36]: [Workshop] CancelDownloads for all pending downloads
+[00:00:36]: [Connect] InternalInitClient <8975139263494830323>
+[00:00:36]: [Shard] Starting shard mode as player
+[00:00:36]: [Connect] Starting online connection to 72.182.110.241|10999
+[00:00:36]: [Connect] Server name: Final World
+[00:00:37]: [200] Account Communication Success (13)
+[00:00:37]: [Connect] Sending ping(s)...
+[00:00:37]: [Connect] DirectConnect Ping 72.182.110.241|10999
+[00:00:37]: [Connect] Ping response from 72.182.110.241|10999
+[00:00:37]: [Connect] Joining server from ping response (silent)...
+[00:00:37]: [Connect] PendingConnectionDoConnect to 72.182.110.241|10999
+[00:00:37]: [Connect] DirectConnect to 72.182.110.241|10999
+[00:00:37]: Connection accepted to 72.182.110.241|10999 <700908973307452733>
+[00:00:37]: Network external address discovered: 68.206.75.99|51707
+[00:00:37]: SendClientHandShakePacket to <700908973307452733>
+[00:00:37]: [Connect] PendingConnection::Reset(true)
+[00:00:37]: PushNetworkDisconnectEvent With Reason: "ID_DST_INCOMING_CONNECTIONS_DISABLED", reset: true
+[00:00:37]: [Shard] Stopping shard mode
+[00:00:37]: [Workshop] CancelDownloads for all pending downloads
+[00:00:52]: [Workshop] CancelDownloads for all pending downloads
+[00:00:53]: [Connect] Got new join server request from lua
+[00:00:53]: [Connect] Init client connection to (S) <700908973307452733>
+[00:00:53]: [Connect] PendingConnection::Reset(true)
+[00:00:53]: [Workshop] CancelDownloads for all pending downloads
+[00:00:53]: [Connect] InternalInitClient <4700970631617384712>
+[00:00:53]: [Shard] Starting shard mode as player
+[00:00:53]: [Connect] Starting online connection to 72.182.110.241|10999
+[00:00:53]: [Connect] Server name: Final World
+[00:00:53]: [200] Account Communication Success (13)
+[00:00:53]: [Connect] Sending ping(s)...
+[00:00:53]: [Connect] DirectConnect Ping 72.182.110.241|10999
+[00:00:54]: [Connect] Ping response from 72.182.110.241|10999
+[00:00:54]: [Connect] Joining server from ping response (silent)...
+[00:00:54]: [Connect] PendingConnectionDoConnect to 72.182.110.241|10999
+[00:00:54]: [Connect] DirectConnect to 72.182.110.241|10999
+[00:00:54]: Connection accepted to 72.182.110.241|10999 <700908973307452733>
+[00:00:54]: Network external address discovered: 68.206.75.99|60008
+[00:00:54]: SendClientHandShakePacket to <700908973307452733>
+[00:00:54]: [Connect] PendingConnection::Reset(true)
+[00:00:54]: PushNetworkDisconnectEvent With Reason: "ID_DST_INCOMING_CONNECTIONS_DISABLED", reset: true
+[00:00:54]: [Shard] Stopping shard mode
+[00:00:54]: [Workshop] CancelDownloads for all pending downloads
+[00:00:58]: [Workshop] CancelDownloads for all pending downloads
+[00:01:10]: [Connect] Got new join server request from lua
+[00:01:10]: [Connect] Init client connection to (S) <700908973307452733>
+[00:01:10]: [Connect] PendingConnection::Reset(true)
+[00:01:10]: [Workshop] CancelDownloads for all pending downloads
+[00:01:10]: [Connect] InternalInitClient <605541494726797544>
+[00:01:10]: [Shard] Starting shard mode as player
+[00:01:10]: [Connect] Starting online connection to 72.182.110.241|10999
+[00:01:10]: [Connect] Server name: Final World
+[00:01:11]: [200] Account Communication Success (13)
+[00:01:11]: [Connect] Sending ping(s)...
+[00:01:11]: [Connect] DirectConnect Ping 72.182.110.241|10999
+[00:01:11]: [Connect] Ping response from 72.182.110.241|10999
+[00:01:11]: [Connect] Joining server from ping response (silent)...
+[00:01:11]: [Connect] PendingConnectionDoConnect to 72.182.110.241|10999
+[00:01:11]: [Connect] DirectConnect to 72.182.110.241|10999
+[00:01:11]: Connection accepted to 72.182.110.241|10999 <700908973307452733>
+[00:01:11]: Network external address discovered: 68.206.75.99|56855
+[00:01:11]: SendClientHandShakePacket to <700908973307452733>
+[00:01:14]: LOADING_STATE_DONE_LOADING
+[00:01:14]: Client received new session identifier: 3BE542D5479D5BCF
+[00:01:14]: Begin Session: 3BE542D5479D5BCF
+[00:01:14]: DownloadMods and temp disable	
+[00:01:14]: Downloading [0] From: server_temp
+[00:01:14]: 0 (42%) 1/1 server_temp/server_save 114000b / 265891b
+[00:01:14]: 0 (85%) 1/1 server_temp/server_save 228000b / 265891b
+[00:01:14]: 0 (100%) 1/1 server_temp/server_save 265891b / 265891b
+[00:01:14]: Download complete[0] Files: 1 Size: 265891
+[00:01:15]: Collecting garbage...
+[00:01:15]: lua_gc took 0.08 seconds
+[00:01:15]: ~ShardLuaProxy()
+[00:01:15]: ~cEventLeaderboardProxy()
+[00:01:15]: ~ItemServerLuaProxy()
+[00:01:15]: ~InventoryLuaProxy()
+[00:01:15]: ~NetworkLuaProxy()
+[00:01:15]: ~SimLuaProxy()
+[00:01:15]: Cancelling LuaQueryCallback handle [5]
+[00:01:15]: [Workshop] CancelDownloads for all pending downloads
+[00:01:15]: lua_close took 0.09 seconds
+[00:01:15]: ReleaseAll
+[00:01:15]: ReleaseAll Finished
+[00:01:15]: cGame::StartPlaying
+[00:01:15]: AppVersion::GetArchitecture() x64
+[00:01:15]: LOADING LUA
+[00:01:15]: DoLuaFile scripts/main.lua
+[00:01:15]: DoLuaFile loading buffer scripts/main.lua
+[00:01:15]:   taskgrouplist:	default	Together	
+[00:01:15]:   taskgrouplist:	classic	Classic	
+[00:01:15]:   taskgrouplist:	cave_default	Underground	
+[00:01:15]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:01:15]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:01:15]: Running main.lua
+	
+[00:01:15]: loaded modindex	
+[00:01:15]: ModIndex: Beginning normal load sequence.
+	
+[00:01:16]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:01:16]: MOD ERROR: unknown mod: Game mode '' not found in GAME_MODES	
+[00:01:16]: LOADING LUA SUCCESS
+[00:01:16]: PlayerDeaths loaded morgue	1451	
+[00:01:16]: PlayerHistory loaded player_history (v2) len:771	
+[00:01:16]: ServerPreferences loaded server_preferences	2	
+[00:01:16]: ConsoleScreenSettings loaded consolescreen	18	
+[00:01:16]: bloom_enabled	true	
+[00:01:16]: EnableShadeRenderer: 	true	
+[00:01:16]: OnFilesLoaded()	
+[00:01:16]: OnUpdatePurchaseStateComplete	
+[00:01:16]: Loading world: client_temp/server_save	
+[00:01:16]: Save file is at version 5.141	
+[00:01:16]: Klump load on boot started.	
+[00:01:16]: Klump files loaded: 	0	
+[00:01:16]: 	Unload FE	
+[00:01:16]: 	Unload FE done	
+[00:01:17]: 	LOAD BE	
+[00:01:27]: 	LOAD BE: done	
+[00:01:27]: OVERRIDE: setting	regrowth	to	veryfast	
+[00:01:27]: OVERRIDE: setting	moon_tree_regrowth	to	veryfast	
+[00:01:27]: OVERRIDE: setting	deciduoustree_regrowth	to	veryfast	
+[00:01:27]: OVERRIDE: setting	healthpenalty	to	none	
+[00:01:27]: OVERRIDE: setting	flowers_regrowth	to	veryfast	
+[00:01:27]: OVERRIDE: setting	wildfires	to	never	
+[00:01:27]: OVERRIDE: setting	shadowcreatures	to	rare	
+[00:01:27]: OVERRIDE: setting	darkness	to	nonlethal	
+[00:01:27]: OVERRIDE: setting	hunger	to	nonlethal	
+[00:01:27]: OVERRIDE: setting	temperaturedamage	to	nonlethal	
+[00:01:27]: OVERRIDE: setting	brightmarecreatures	to	rare	
+[00:01:27]: OVERRIDE: setting	lessdamagetaken	to	always	
+[00:01:27]: OVERRIDE: setting	cactus_regrowth	to	veryfast	
+[00:01:27]: OVERRIDE: setting	evergreen_regrowth	to	veryfast	
+[00:01:27]: OVERRIDE: setting	reeds_regrowth	to	veryfast	
+[00:01:27]: OVERRIDE: setting	saltstack_regrowth	to	veryfast	
+[00:01:27]: OVERRIDE: setting	carrots_regrowth	to	veryfast	
+[00:01:27]: OVERRIDE: setting	palmconetree_regrowth	to	veryfast	
+[00:01:27]: OVERRIDE: setting	butterfly	to	always	
+[00:01:27]: OVERRIDE: setting	twiggytrees_regrowth	to	veryfast	
+[00:01:27]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:01:27]: Loading 19 new character(s)	
+[00:01:28]: Total 19 character(s) loaded	
+[00:01:28]: World generated on build 556225 with save version: 5.141, using seed: 	
+[00:01:28]: OVERRIDE: setting	hounds	to	rare	
+[00:01:28]: OVERRIDE: setting	ghostenabled	to	always	
+[00:01:28]: OVERRIDE: setting	resettime	to	none	
+[00:01:28]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:01:28]: OVERRIDE: setting	portalresurection	to	always	
+[00:01:28]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:01:28]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:01:28]: Reconstructing topology	
+[00:01:28]: 	...Sorting points	
+[00:01:28]: 	...Sorting edges	
+[00:01:28]: 	...Connecting nodes	
+[00:01:28]: 	...Validating connections	
+[00:01:28]: 	...Housekeeping	
+[00:01:28]: 	...Done!	
+[00:01:28]: Check for write access: TRUE
+[00:01:28]: Check for read access: TRUE
+[00:01:28]: Available disk space for save files: 55302 MB
+[00:01:28]: ModIndex: Load sequence finished successfully.	
+[00:01:28]: Reset() returning
+[00:01:28]: DeserializeHandShakeServerListing
+[00:01:28]: Network tick rate: U=10(3), D=15
+[00:01:28]: Platform: 1
+[00:01:28]: Version: 556225
+[00:01:28]: [Steam] Game Connection initiated
+[00:01:35]: SendClientInventoryHandShakePacket to <700908973307452733>
+[00:01:35]: Begin Session: 3BE542D5479D5BCF
+[00:01:35]: Stomping previously assigned session identifier, two loads issued.
+[00:01:36]: Can't find prefab worldmapexplorer	
+[00:01:42]: Done Downloading Client Object Data
+[00:01:42]: DownloadMods and temp disable	
+[00:01:42]: We now have the required mods, enable them for server	
+[00:01:42]: Temp Enabling workshop-1185229307	
+[00:01:42]: Temp Enabling workshop-2713019887	
+[00:01:42]: Temp Enabling workshop-378160973	
+[00:01:42]: ModIndex:SetTempModConfigData	
+[00:01:42]: Setting temp mod config for mod 	workshop-1185229307	
+[00:01:42]: Setting temp mod config for mod 	workshop-378160973	
+[00:01:42]: Setting temp mod config for mod 	workshop-2713019887	
+[00:01:42]: Mods are setup for server, save the mod index and proceed.	
+[00:01:42]: Downloading [1] From: server_temp
+[00:01:42]: Attempting to send resume request
+[00:01:42]: Can't find prefab globalposition_classified	
+[00:01:42]: Can't find prefab globalmapicon_noproxy	
+[00:01:42]: RakNet detected a missing replica (60601)
+[00:01:42]: RakNet detected a missing replica (65846)
+[00:01:42]: RakNet detected a missing replica (4194308)
+[00:01:42]: RakNet detected a missing replica (4964354)
+[00:01:42]: RakNet detected a missing replica (5398357)
+[00:01:42]: RakNet detected a missing replica (6778964)
+[00:01:42]: RakNet detected a missing replica (6448502)
+[00:01:42]: RakNet detected a missing replica (32884)
+[00:01:42]: RakNet detected a missing replica (37054)
+[00:01:42]: RakNet detected a missing replica (6911840)
+[00:01:42]: RakNet detected a missing replica (7304044)
+[00:01:42]: RakNet detected a missing replica (12398)
+[00:01:42]: RakNet detected a missing replica (12046404)
+[00:01:42]: RakNet detected a missing replica (1310720)
+[00:01:42]: RakNet detected a missing replica (24630)
+[00:01:42]: RakNet detected a missing replica (12627467)
+[00:01:42]: RakNet detected a missing replica (8198)
+[00:01:42]: RakNet detected a missing replica (12607748)
+[00:01:42]: RakNet detected a missing replica (4206139)
+[00:01:42]: RakNet detected a missing replica (262144)
+[00:01:42]: RakNet detected a missing replica (170445)
+[00:01:42]: RakNet detected a missing replica (1363700)
+[00:01:42]: RakNet detected a missing replica (2437688)
+[00:01:42]: RakNet detected a missing replica (15514529)
+[00:01:42]: RakNet detected a missing replica (25088)
+[00:01:42]: RakNet detected a missing replica (1852928)
+[00:01:42]: RakNet detected a missing replica (14987779)
+[00:01:42]: RakNet detected a missing replica (4992912)
+[00:01:42]: RakNet detected a missing replica (8602593)
+[00:01:42]: RakNet detected a missing replica (1464866)
+[00:01:42]: RakNet detected a missing replica (311497)
+[00:01:42]: RakNet detected a missing replica (10486272)
+[00:01:42]: RakNet detected a missing replica (11372783)
+[00:01:42]: RakNet detected a missing replica (15789426)
+[00:01:42]: RakNet detected a missing replica (14127159)
+[00:01:42]: RakNet detected a missing replica (12606052)
+[00:01:42]: RakNet detected a missing replica (4202496)
+[00:01:42]: RakNet detected a missing replica (61710)
+[00:01:42]: RakNet detected a missing replica (5984000)
+[00:01:42]: RakNet detected a missing replica (13220795)
+[00:01:42]: RakNet detected a missing replica (7829491)
+[00:01:42]: RakNet detected a missing replica (3645304)
+[00:01:42]: RakNet detected a missing replica (12613495)
+[00:01:42]: RakNet detected a missing replica (8976493)
+[00:01:42]: RakNet detected a missing replica (4730656)
+[00:01:42]: RakNet detected a missing replica (284672)
+[00:01:42]: RakNet detected a missing replica (15947189)
+[00:01:42]: RakNet detected a missing replica (10683717)
+[00:01:42]: RakNet detected a missing replica (16159798)
+[00:01:42]: RakNet detected a missing replica (536803)
+[00:01:42]: RakNet detected a missing replica (360448)
+[00:01:42]: RakNet detected a missing replica (5617028)
+[00:01:42]: RakNet detected a missing replica (345587)
+[00:01:42]: RakNet detected a missing replica (9713315)
+[00:01:42]: RakNet detected a missing replica (15791350)
+[00:01:42]: RakNet detected a missing replica (8388616)
+[00:01:42]: RakNet detected a missing replica (11895813)
+[00:01:42]: RakNet detected a missing replica (2487637)
+[00:01:42]: RakNet detected a missing replica (7800391)
+[00:01:42]: RakNet detected a missing replica (2578022)
+[00:01:42]: RakNet detected a missing replica (1091650)
+[00:01:42]: RakNet detected a missing replica (4718596)
+[00:01:42]: RakNet detected a missing replica (8974148)
+[00:01:42]: RakNet detected a missing replica (15561389)
+[00:01:42]: RakNet detected a missing replica (9451504)
+[00:01:42]: RakNet detected a missing replica (25303)
+[00:01:42]: RakNet detected a missing replica (11863062)
+[00:01:42]: RakNet detected a missing replica (9893717)
+[00:01:42]: RakNet detected a missing replica (6788436)
+[00:01:42]: RakNet detected a missing replica (6497335)
+[00:01:42]: RakNet detected a missing replica (2144)
+[00:01:42]: RakNet detected a missing replica (8652160)
+[00:01:42]: RakNet detected a missing replica (16012725)
+[00:01:42]: RakNet detected a missing replica (2614726)
+[00:01:42]: RakNet detected a missing replica (12862532)
+[00:01:42]: RakNet detected a missing replica (553079)

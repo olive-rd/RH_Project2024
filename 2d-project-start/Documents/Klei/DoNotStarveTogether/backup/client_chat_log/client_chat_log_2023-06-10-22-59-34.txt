@@ -1,0 +1,5 @@
+[00:12:46]: [Death Announcement] Sir-Narly was killed by Terrorbeak. He became a spooky ghost!
+[00:13:10]: [Resurrect Announcement] Sir-Narly was resurrected by Florid Postern.
+[00:41:49]: [Death Announcement] Sir-Narly was killed by Crawling Horror. He became a spooky ghost!
+[00:43:37]: [Death Announcement] dilanyb was killed by Crawling Horror. He became a spooky ghost!
+[00:43:40]: [Resurrect Announcement] dilanyb was resurrected by Florid Postern.

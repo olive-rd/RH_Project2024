@@ -1,6 +1,6 @@
 res://game_scene.tscn
+res://player.gd
 res://gun.tscn
 res://player.tscn
 res://mob.tscn
 res://bullet.tscn
-res://player.gd

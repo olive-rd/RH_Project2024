@@ -1,0 +1,27 @@
+[00:30:32]: [Join Announcement] patelp0werjr
+[00:31:19]: [Skin Announcement] dilanyb feet_ankleboot_brown_beaver
+[00:33:29]: [Leave Announcement] dilanyb
+[00:34:17]: [Join Announcement] dilanyb
+[00:35:09]: [Leave Announcement] dilanyb
+[00:36:39]: [Join Announcement] dilanyb
+[00:37:52]: [Leave Announcement] dilanyb
+[00:39:47]: [Join Announcement] dilanyb
+[00:46:22]: [Leave Announcement] dilanyb
+[00:46:59]: [Join Announcement] dilanyb
+[00:51:13]: [Death Announcement] Sir-Narly was killed by Terrorbeak. He became a spooky ghost!
+[00:55:04]: [Resurrect Announcement] Sir-Narly was resurrected by Florid Postern.
+[00:59:22]: [Leave Announcement] dilanyb
+[01:00:32]: [Join Announcement] dilanyb
+[01:00:48]: [Death Announcement] dilanyb was killed by Shenanigans. He became a spooky ghost!
+[01:03:06]: [Resurrect Announcement] dilanyb was resurrected by Touch Stone.
+[01:12:54]: [Death Announcement] Dante McedgeLord was killed by Terrorbeak. She became a spooky ghost!
+[01:15:22]: [Resurrect Announcement] Dante McedgeLord was resurrected by Touch Stone.
+[01:19:51]: [Death Announcement] Sir-Narly was killed by MacTusk. He became a spooky ghost!
+[01:21:07]: [Death Announcement] Dante McedgeLord was killed by Pengull. She became a spooky ghost!
+[01:21:56]: [Leave Announcement] patelp0werjr
+[01:22:24]: [Resurrect Announcement] Sir-Narly was resurrected by Florid Postern.
+[01:22:25]: [Join Announcement] patelp0werjr
+[01:22:52]: [Leave Announcement] patelp0werjr
+[01:23:17]: [Leave Announcement] dilanyb
+[01:23:18]: [Leave Announcement] Dante McedgeLord
+[01:23:19]: [Leave Announcement] Yeeziez

@@ -1,0 +1,49 @@
+[00:13:35]: [Join Announcement] patelp0werjr
+[00:13:52]: [Join Announcement] patelp0werjr
+[00:25:34]: [Death Announcement] Dante McedgeLord was killed by Dragonfly. They became a spooky ghost!
+[00:25:42]: [Death Announcement] patelp0werjr was killed by Dragonfly. He became a spooky ghost!
+[00:28:22]: [Resurrect Announcement] patelp0werjr was resurrected by Touch Stone.
+[00:28:46]: [Resurrect Announcement] Dante McedgeLord was resurrected by Touch Stone.
+[00:32:49]: [Death Announcement] Dante McedgeLord was killed by Terrorbeak. They became a spooky ghost!
+[00:33:05]: [Death Announcement] Sir-Narly was killed by Crawling Horror. She became a spooky ghost!
+[00:33:05]: [Death Announcement] Yeeziez was killed by Fire. He became a spooky ghost!
+[00:33:15]: [Death Announcement] patelp0werjr was killed by Fire. He became a spooky ghost!
+[00:34:05]: [Resurrect Announcement] Sir-Narly was resurrected by Touch Stone.
+[00:36:57]: [Death Announcement] Sir-Narly was killed by Fire. She became a spooky ghost!
+[00:37:51]: [Resurrect Announcement] patelp0werjr was resurrected by Florid Postern.
+[00:37:59]: [Resurrect Announcement] Yeeziez was resurrected by Florid Postern.
+[00:38:07]: [Death Announcement] patelp0werjr was killed by Spider. He became a spooky ghost!
+[00:38:08]: [Resurrect Announcement] Dante McedgeLord was resurrected by Florid Postern.
+[00:38:13]: [Resurrect Announcement] patelp0werjr was resurrected by Florid Postern.
+[00:38:22]: [Resurrect Announcement] Sir-Narly was resurrected by Florid Postern.
+[00:38:25]: [Death Announcement] Yeeziez was killed by Spider. He became a spooky ghost!
+[00:38:30]: [Resurrect Announcement] Yeeziez was resurrected by Florid Postern.
+[00:40:03]: [Death Announcement] patelp0werjr was killed by Deerclops. He became a spooky ghost!
+[00:40:07]: [Death Announcement] Dante McedgeLord was killed by Deerclops. They became a spooky ghost!
+[00:40:12]: [Resurrect Announcement] Dante McedgeLord was resurrected by Florid Postern.
+[00:40:19]: [Death Announcement] Yeeziez was killed by Deerclops. He became a spooky ghost!
+[00:40:22]: [Resurrect Announcement] patelp0werjr was resurrected by Florid Postern.
+[00:40:29]: [Resurrect Announcement] Yeeziez was resurrected by Florid Postern.
+[00:40:31]: [Death Announcement] Dante McedgeLord was killed by Deerclops. They became a spooky ghost!
+[00:40:59]: [Death Announcement] dilanyb was killed by Crawling Horror. He became a spooky ghost!
+[00:41:06]: [Resurrect Announcement] dilanyb was resurrected by Florid Postern.
+[00:41:43]: [Death Announcement] Yeeziez was killed by Spider Warrior. He became a spooky ghost!
+[00:42:07]: [Death Announcement] patelp0werjr was killed by Dragonfly. He became a spooky ghost!
+[00:42:11]: [Death Announcement] dilanyb was killed by Dragonfly. He became a spooky ghost!
+[00:42:14]: [Resurrect Announcement] Yeeziez was resurrected by Florid Postern.
+[00:42:16]: [Death Announcement] Sir-Narly was killed by Dragonfly. She became a spooky ghost!
+[00:42:20]: [Death Announcement] Yeeziez was killed by Dragonfly. He became a spooky ghost!
+[00:42:27]: [Resurrect Announcement] patelp0werjr was resurrected by Florid Postern.
+[00:42:38]: [Resurrect Announcement] Sir-Narly was resurrected by Florid Postern.
+[00:42:38]: [Death Announcement] patelp0werjr was killed by Spider. He became a spooky ghost!
+[00:42:44]: [Death Announcement] Sir-Narly was killed by Dragonfly. She became a spooky ghost!
+[00:42:57]: [Resurrect Announcement] patelp0werjr was resurrected by Florid Postern.
+[00:43:05]: [Death Announcement] patelp0werjr was killed by Dragonfly. He became a spooky ghost!
+[00:43:05]: [Resurrect Announcement] Dante McedgeLord was resurrected by Florid Postern.
+[00:43:11]: [Death Announcement] Dante McedgeLord was killed by Dragonfly. They became a spooky ghost!
+[00:43:30]: [Leave Announcement] patelp0werjr
+[00:44:17]: [Resurrect Announcement] dilanyb was resurrected by Florid Postern.
+[00:44:37]: [Death Announcement] dilanyb was killed by Dragonfly. He became a spooky ghost!
+[00:45:26]: [Vote Announcement] regenerate passed
+[00:45:44]: [Join Announcement] patelp0werjr
+[00:45:58]: [Vote Announcement] regenerate passed
