@@ -1,8 +1,9 @@
-ProgressBar
 CollisionShape2D
-Area2D
-Camera2D
 TileMap
-CharacterBody2D
 StaticBody2D
+Timer
+PathFollow2D
+Path2D
+Camera2D
+CharacterBody2D
 AnimatedSprite2D

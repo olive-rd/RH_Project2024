@@ -1,18 +1,12 @@
-[gd_scene load_steps=18 format=3 uid="uid://ctgwl7eb2fim0"]
+[gd_scene load_steps=15 format=3 uid="uid://ctgwl7eb2fim0"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_1n6fw"]
 [ext_resource type="Texture2D" uid="uid://c7e8bj8wby20w" path="res://characters/happy_boo/download/male/kuro/base/idle.png" id="2_hyh44"]
 [ext_resource type="Texture2D" uid="uid://ccvaeiws76a30" path="res://characters/happy_boo/download/male/kuro/base/move.png" id="3_hp3fi"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ev6nm"]
-bg_color = Color(0.278431, 0.0431373, 0.0392157, 0.615686)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rei0a"]
-bg_color = Color(0.45098, 0.541176, 0.0823529, 1)
-
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g023p"]
-radius = 8.0
-height = 18.0
+radius = 9.0
+height = 22.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4ao8j"]
 atlas = ExtResource("2_hyh44")
@@ -90,24 +84,11 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_0gic1"]
-radius = 11.0
-
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_1n6fw")
 
-[node name="ProgressBar" type="ProgressBar" parent="."]
-unique_name_in_owner = true
-offset_left = -17.0
-offset_top = -13.0
-offset_right = 17.0
-offset_bottom = -10.0
-theme_override_styles/background = SubResource("StyleBoxFlat_ev6nm")
-theme_override_styles/fill = SubResource("StyleBoxFlat_rei0a")
-value = 100.0
-show_percentage = false
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 0)
 shape = SubResource("CapsuleShape2D_g023p")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -116,12 +97,3 @@ animation = &"idle"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(5, 5)
-
-[node name="HitBox" type="Area2D" parent="."]
-unique_name_in_owner = true
-collision_layer = 0
-collision_mask = 2
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
-shape = SubResource("CircleShape2D_0gic1")
-debug_color = Color(0.870588, 0.333333, 0.294118, 0.419608)
