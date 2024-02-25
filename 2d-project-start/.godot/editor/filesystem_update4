@@ -1,6 +1,5 @@
 res://game_scene.tscn
-res://gun.tscn
 res://player.tscn
-res://mob.tscn
-res://bullet.tscn
-res://player.gd
+res://TREEEEEE.tscn
+res://PathFollow2D.gd
+res://game_scene.gd
