@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=3 uid="uid://ulgeq1vv3ji6"]
+[gd_scene load_steps=41 format=3 uid="uid://ulgeq1vv3ji6"]
 
 [ext_resource type="Script" path="res://game_scene.gd" id="1_epjn3"]
 [ext_resource type="Texture2D" uid="uid://bedsvpug8awp5" path="res://tf_jungle/tf_jungle_tileset.png" id="2_1ilj6"]
@@ -483,43 +483,43 @@ size = Vector2(269, 1205)
 size = Vector2(298, 1213)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1a1r8"]
-size = Vector2(1339.5, 242)
+size = Vector2(1840, 225)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lcjes"]
 size = Vector2(486, 30)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uhuup"]
-size = Vector2(1177, 84)
+size = Vector2(1177, 358)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_odqlt"]
-size = Vector2(119.5, 55)
+size = Vector2(422, 313.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4nnyy"]
-size = Vector2(56, 261)
+size = Vector2(323, 261)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_y17qi"]
-size = Vector2(34, 112)
+size = Vector2(344, 112)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lcokj"]
-size = Vector2(19, 91)
+size = Vector2(373, 453)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_851v8"]
-size = Vector2(20, 267)
+size = Vector2(384, 267)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_icnog"]
-size = Vector2(166, 183)
+size = Vector2(459, 411)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bvveq"]
-size = Vector2(45, 61)
+size = Vector2(437, 308.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ldjae"]
 size = Vector2(36, 34)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_53trj"]
-size = Vector2(98, 165)
+size = Vector2(369, 389)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_34kaf"]
-size = Vector2(194, 244.5)
+size = Vector2(491, 548)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jljpe"]
 size = Vector2(303, 34)
@@ -531,34 +531,37 @@ size = Vector2(99, 25)
 size = Vector2(83, 44)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_stpj4"]
-size = Vector2(119, 63)
+size = Vector2(498, 571)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xwns3"]
 size = Vector2(20, 59)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h7ono"]
-size = Vector2(166.5, 43)
+size = Vector2(584, 284)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7ltwg"]
-size = Vector2(116, 50)
+size = Vector2(708, 291)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wtpv2"]
-size = Vector2(115, 31)
+size = Vector2(962, 247)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dkth2"]
-size = Vector2(157, 50)
+size = Vector2(859, 262)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s24h3"]
 size = Vector2(83.5, 96)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nqcu2"]
-size = Vector2(326, 96)
+size = Vector2(673, 299)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m6s5l"]
-size = Vector2(50, 80)
+size = Vector2(717, 286)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hidhw"]
 size = Vector2(51, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bifjv"]
+size = Vector2(416, 193)
 
 [node name="Game_scene" type="Node2D"]
 y_sort_enabled = true
@@ -586,7 +589,7 @@ layer_2/z_index = 0
 layer_2/tile_data = PackedInt32Array(524329, 196608, 4, 524330, 262144, 4, 1769519, 196608, 4, 1769520, 262144, 4, 393232, 196608, 4, 393233, 262144, 4, 1376281, 196608, 4, 1376282, 262144, 4, 1245189, 196608, 5, 1114131, 196608, 5, 458784, 196608, 5, 1703989, 196608, 5, 1245226, 458752, 4, 1245227, 524288, 4, 131097, 458752, 4, 131098, 524288, 4, 917534, 458752, 4, 917535, 524288, 4, 1179658, 458752, 4, 1179659, 524288, 4, 1769481, 327680, 5, 1638420, 327680, 5, 524314, 327680, 5, 262148, 327680, 5, 786436, 327680, 5, 1179700, 131072, 3, 589877, 131072, 3, 786478, 131072, 3, 1507364, 131072, 3, 983076, 131072, 3, 524301, 131072, 3, 65549, 131072, 3, 1900543, 196608, 8, 1769467, 196608, 8, 1703929, 196608, 8, 1507319, 196608, 8, 1900610, 65536, 8, 2424861, 720897, 6, 2359331, 720897, 6, 2293804, 720897, 6, 2228270, 720897, 6, 2424848, 851969, 6, 2359305, 851969, 6, 2555903, 720897, 6, 2621434, 720897, 6, 524283, 196608, 8, -393205, 1048576, 5, -327669, 1048576, 6, -262133, 1048576, 7, -196597, 1048576, 8, -131061, 1048576, 9, -65525, 1048576, 10, -393204, 1114112, 5, -327668, 1114112, 6, -262132, 1114112, 7, -196596, 1114112, 8, -131060, 1114112, 9, -65524, 1114112, 10, -393203, 1179648, 5, -327667, 1179648, 6, -262131, 1179648, 7, -196595, 1179648, 8, -131059, 1179648, 9, -65523, 1179648, 10, -327666, 1245184, 6, -262130, 1245184, 7, -196594, 1245184, 8, -393200, 1048576, 5, -327664, 1048576, 6, -262128, 1048576, 7, -196592, 1048576, 8, -131056, 1048576, 9, -65520, 1048576, 10, -393199, 1114112, 5, -327663, 1114112, 6, -262127, 1114112, 7, -196591, 1114112, 8, -131055, 1114112, 9, -65519, 1114112, 10, -393198, 1179648, 5, -327662, 1179648, 6, -262126, 1179648, 7, -196590, 1179648, 8, -131054, 1179648, 9, -65518, 1179648, 10, -327661, 1245184, 6, -262125, 1245184, 7, -196589, 1245184, 8, -393195, 1048576, 5, -327659, 1048576, 6, -262123, 1048576, 7, -196587, 1048576, 8, -131051, 1048576, 9, -65515, 1048576, 10, -393194, 1114112, 5, -327658, 1114112, 6, -262122, 1114112, 7, -196586, 1114112, 8, -131050, 1114112, 9, -65514, 1114112, 10, -393193, 1179648, 5, -327657, 1179648, 6, -262121, 1179648, 7, -196585, 1179648, 8, -131049, 1179648, 9, -65513, 1179648, 10, -327656, 1245184, 6, -262120, 1245184, 7, -196584, 1245184, 8, -393190, 1048576, 5, -327654, 1048576, 6, -262118, 1048576, 7, -196582, 1048576, 8, -131046, 1048576, 9, -65510, 1048576, 10, -393189, 1114112, 5, -327653, 1114112, 6, -262117, 1114112, 7, -196581, 1114112, 8, -131045, 1114112, 9, -65509, 1114112, 10, -393188, 1179648, 5, -327652, 1179648, 6, -262116, 1179648, 7, -196580, 1179648, 8, -131044, 1179648, 9, -65508, 1179648, 10, -327651, 1245184, 6, -262115, 1245184, 7, -196579, 1245184, 8, -393185, 1048576, 5, -327649, 1048576, 6, -262113, 1048576, 7, -196577, 1048576, 8, -131041, 1048576, 9, -65505, 1048576, 10, -393184, 1114112, 5, -327648, 1114112, 6, -262112, 1114112, 7, -196576, 1114112, 8, -131040, 1114112, 9, -65504, 1114112, 10, -393183, 1179648, 5, -327647, 1179648, 6, -262111, 1179648, 7, -196575, 1179648, 8, -131039, 1179648, 9, -65503, 1179648, 10, -327646, 1245184, 6, -262110, 1245184, 7, -196574, 1245184, 8, -393180, 1048576, 5, -327644, 1048576, 6, -262108, 1048576, 7, -196572, 1048576, 8, -131036, 1048576, 9, -65500, 1048576, 10, -393179, 1114112, 5, -327643, 1114112, 6, -262107, 1114112, 7, -196571, 1114112, 8, -131035, 1114112, 9, -65499, 1114112, 10, -393178, 1179648, 5, -327642, 1179648, 6, -262106, 1179648, 7, -196570, 1179648, 8, -131034, 1179648, 9, -65498, 1179648, 10, -327641, 1245184, 6, -262105, 1245184, 7, -196569, 1245184, 8, -393175, 1048576, 5, -327639, 1048576, 6, -262103, 1048576, 7, -196567, 1048576, 8, -131031, 1048576, 9, -65495, 1048576, 10, -393174, 1114112, 5, -327638, 1114112, 6, -262102, 1114112, 7, -196566, 1114112, 8, -131030, 1114112, 9, -65494, 1114112, 10, -393173, 1179648, 5, -327637, 1179648, 6, -262101, 1179648, 7, -196565, 1179648, 8, -131029, 1179648, 9, -65493, 1179648, 10, -327636, 1245184, 6, -262100, 1245184, 7, -196564, 1245184, 8, -393170, 1048576, 5, -327634, 1048576, 6, -262098, 1048576, 7, -196562, 1048576, 8, -131026, 1048576, 9, -65490, 1048576, 10, -393169, 1114112, 5, -327633, 1114112, 6, -262097, 1114112, 7, -196561, 1114112, 8, -131025, 1114112, 9, -65489, 1114112, 10, -393168, 1179648, 5, -327632, 1179648, 6, -262096, 1179648, 7, -196560, 1179648, 8, -131024, 1179648, 9, -65488, 1179648, 10, -327631, 1245184, 6, -262095, 1245184, 7, -196559, 1245184, 8, -393165, 1048576, 5, -327629, 1048576, 6, -262093, 1048576, 7, -196557, 1048576, 8, -131021, 1048576, 9, -65485, 1048576, 10, -393164, 1114112, 5, -327628, 1114112, 6, -262092, 1114112, 7, -196556, 1114112, 8, -131020, 1114112, 9, -65484, 1114112, 10, -393163, 1179648, 5, -327627, 1179648, 6, -196555, 1179648, 8, -131019, 1179648, 9, -65483, 1179648, 10, -327626, 1245184, 6, -262090, 1245184, 7, -196554, 1245184, 8, -393160, 1048576, 5, -327624, 1048576, 6, -262088, 1048576, 7, -196552, 1048576, 8, -131016, 1048576, 9, -65480, 1048576, 10, -393159, 1114112, 5, -327623, 1114112, 6, -262087, 1114112, 7, -196551, 1114112, 8, -131015, 1114112, 9, -65479, 1114112, 10, -393158, 1179648, 5, -327622, 1179648, 6, -262086, 1179648, 7, -196550, 1179648, 8, -131014, 1179648, 9, -65478, 1179648, 10, -327621, 1245184, 6, -262085, 1245184, 7, -196549, 1245184, 8, -327625, 983040, 6, -262089, 983040, 7, -196553, 983040, 8, -327630, 983040, 6, -262094, 983040, 7, -196558, 983040, 8, -327635, 983040, 6, -262099, 983040, 7, -196563, 983040, 8, -327640, 983040, 6, -262104, 983040, 7, -196568, 983040, 8, -327645, 983040, 6, -262109, 983040, 7, -196573, 983040, 8, -327650, 983040, 6, -262114, 983040, 7, -196578, 983040, 8, -327655, 983040, 6, -262119, 983040, 7, -196583, 983040, 8, -327660, 983040, 6, -262124, 983040, 7, -196588, 983040, 8, -327665, 983040, 6, -262129, 983040, 7, -196593, 983040, 8, -327670, 983040, 6, -262134, 983040, 7, -196598, 983040, 8, -262091, 1179648, 7)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_t21xe")]
-position = Vector2(971, 498)
+position = Vector2(110, 39)
 
 [node name="Path2D" type="Path2D" parent="CharacterBody2D"]
 position = Vector2(-115.564, 578.638)
@@ -613,7 +616,7 @@ position = Vector2(1285, 239.5)
 shape = SubResource("RectangleShape2D_ofl0c")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(521.25, 728)
+position = Vector2(505, 719.5)
 shape = SubResource("RectangleShape2D_1a1r8")
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="World Barrier"]
@@ -621,39 +624,35 @@ position = Vector2(75, -86)
 shape = SubResource("RectangleShape2D_lcjes")
 
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(426.5, -47)
+position = Vector2(426.5, -184)
 shape = SubResource("RectangleShape2D_uhuup")
 
 [node name="CollisionShape2D7" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(-94.75, 9)
+position = Vector2(-246, -120.25)
 shape = SubResource("RectangleShape2D_odqlt")
 
 [node name="CollisionShape2D8" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(-130, 162.5)
+position = Vector2(-263.5, 162.5)
 shape = SubResource("RectangleShape2D_4nnyy")
 
 [node name="CollisionShape2D9" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(-87, 173)
+position = Vector2(-242, 173)
 shape = SubResource("RectangleShape2D_y17qi")
 
 [node name="CollisionShape2D10" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(-91.5, 77.5)
+position = Vector2(-268.5, -103.5)
 shape = SubResource("RectangleShape2D_lcokj")
 
 [node name="CollisionShape2D11" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(-143, 480.5)
+position = Vector2(-325, 480.5)
 shape = SubResource("RectangleShape2D_851v8")
 
 [node name="CollisionShape2D12" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(-85, 537.5)
+position = Vector2(-231.5, 651.5)
 shape = SubResource("RectangleShape2D_icnog")
 
 [node name="CollisionShape2D13" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(-122.5, 427)
-shape = SubResource("RectangleShape2D_bvveq")
-
-[node name="CollisionShape2D14" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(-90, 440.5)
+position = Vector2(-318.5, 550.75)
 shape = SubResource("RectangleShape2D_bvveq")
 
 [node name="CollisionShape2D15" type="CollisionShape2D" parent="World Barrier"]
@@ -661,11 +660,11 @@ position = Vector2(188, -75)
 shape = SubResource("RectangleShape2D_ldjae")
 
 [node name="CollisionShape2D16" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(1103, 540.5)
+position = Vector2(1238.5, 652.5)
 shape = SubResource("RectangleShape2D_53trj")
 
 [node name="CollisionShape2D17" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(1070, -17.25)
+position = Vector2(1218.5, -169)
 shape = SubResource("RectangleShape2D_34kaf")
 
 [node name="CollisionShape2D18" type="CollisionShape2D" parent="World Barrier"]
@@ -681,7 +680,7 @@ position = Vector2(959, -46)
 shape = SubResource("RectangleShape2D_y0hvo")
 
 [node name="CollisionShape2D21" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(1097.5, 133.5)
+position = Vector2(1287, -120.5)
 shape = SubResource("RectangleShape2D_stpj4")
 
 [node name="CollisionShape2D22" type="CollisionShape2D" parent="World Barrier"]
@@ -689,19 +688,19 @@ position = Vector2(1134, 177.5)
 shape = SubResource("RectangleShape2D_xwns3")
 
 [node name="CollisionShape2D23" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(79.75, 595.5)
+position = Vector2(-129, 716)
 shape = SubResource("RectangleShape2D_h7ono")
 
 [node name="CollisionShape2D24" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(216, 614)
+position = Vector2(-80, 734.5)
 shape = SubResource("RectangleShape2D_7ltwg")
 
 [node name="CollisionShape2D25" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(519.5, 605.5)
+position = Vector2(943, 713.5)
 shape = SubResource("RectangleShape2D_wtpv2")
 
 [node name="CollisionShape2D26" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(637.5, 598)
+position = Vector2(988.5, 704)
 shape = SubResource("RectangleShape2D_dkth2")
 
 [node name="CollisionShape2D27" type="CollisionShape2D" parent="World Barrier"]
@@ -709,16 +708,20 @@ position = Vector2(952.25, 575)
 shape = SubResource("RectangleShape2D_s24h3")
 
 [node name="CollisionShape2D28" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(898, 590)
+position = Vector2(1071.5, 691.5)
 shape = SubResource("RectangleShape2D_nqcu2")
 
 [node name="CollisionShape2D29" type="CollisionShape2D" parent="World Barrier"]
-position = Vector2(728, 598)
+position = Vector2(1061.5, 701)
 shape = SubResource("RectangleShape2D_m6s5l")
 
 [node name="CollisionShape2D30" type="CollisionShape2D" parent="World Barrier"]
 position = Vector2(926, -57)
 shape = SubResource("RectangleShape2D_hidhw")
+
+[node name="CollisionShape2D14" type="CollisionShape2D" parent="World Barrier"]
+position = Vector2(-277, 509.5)
+shape = SubResource("RectangleShape2D_bifjv")
 
 [node name="StaticBody2D2" parent="." instance=ExtResource("4_lik3x")]
 position = Vector2(133, 128)
