@@ -4,3 +4,4 @@ res://gun.tscn
 res://player.tscn
 res://mob.tscn
 res://bullet.tscn
+res://game_scene.gd

@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=3 uid="uid://ulgeq1vv3ji6"]
+[gd_scene load_steps=41 format=3 uid="uid://ulgeq1vv3ji6"]
 
 [ext_resource type="Script" path="res://game_scene.gd" id="1_epjn3"]
 [ext_resource type="Texture2D" uid="uid://bedsvpug8awp5" path="res://tf_jungle/tf_jungle_tileset.png" id="2_1ilj6"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://byxkmw87uje6d" path="res://tf_jungle/DesertTileset16x16/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png" id="2_xawhn"]
 [ext_resource type="PackedScene" uid="uid://ba0bwmr2hnkm5" path="res://TREEEEEE.tscn" id="4_lik3x"]
 [ext_resource type="PackedScene" uid="uid://jex3ysypw5v2" path="res://TREE2.tscn" id="6_af84h"]
+[ext_resource type="FontFile" uid="uid://dagn713dlhc0x" path="res://pansyhand.ttf" id="7_xpxqa"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ecmik"]
 texture = ExtResource("2_1ilj6")
@@ -774,4 +775,35 @@ position = Vector2(255, -251)
 [node name="StaticBody2D20" parent="." instance=ExtResource("4_lik3x")]
 position = Vector2(1188, 211)
 
+[node name="GameOver" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="GameOver"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.811765)
+
+[node name="Label" type="Label" parent="GameOver/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -502.5
+offset_top = -126.5
+offset_right = 502.5
+offset_bottom = 126.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("7_xpxqa")
+theme_override_font_sizes/font_size = 400
+text = "Game Over"
+horizontal_alignment = 1
+
+[connection signal="game_over" from="CharacterBody2D" to="." method="_on_character_body_2d_game_over"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

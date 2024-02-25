@@ -1,3 +1,7 @@
+Label
+ColorRect
+CanvasLayer
+CanvasGroup
 PathFollow2D
 Path2D
 ProgressBar
@@ -9,5 +13,3 @@ Sprite2D
 Camera2D
 TileMap
 CharacterBody2D
-StaticBody2D
-AnimatedSprite2D
