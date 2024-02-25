@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708824833
+::res://::1708832365
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695668179::0::1::::<><>::
 icon.png::CompressedTexture2D::621515402784007901::1695668179::1708801367::1::::<><>::
-player.gd::GDScript::-1::1708820757::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::6120172767615137097::1708824802::0::1::::<><>::res://player.gd<>uid://c7e8bj8wby20w::::res://characters/happy_boo/download/male/kuro/base/idle.png<>uid://ccvaeiws76a30::::res://characters/happy_boo/download/male/kuro/base/move.png
+player.gd::GDScript::-1::1708832187::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::6120172767615137097::1708831328::0::1::::<><>::res://player.gd<>uid://c7e8bj8wby20w::::res://characters/happy_boo/download/male/kuro/base/idle.png<>uid://ccvaeiws76a30::::res://characters/happy_boo/download/male/kuro/base/move.png
 ::res://addons/::1695668179
 ::res://addons/colorpicker_presets/::1695668179
 colorpicker_presets.gd::GDScript::-1::1695668179::0::1::::<>EditorPlugin<>::
@@ -11,9 +11,9 @@ plugin.cfg::TextFile::-1::1695668179::0::1::::<><>::
 README.md::TextFile::-1::1695668179::0::1::::<><>::
 ::res://characters/::1708801367
 ground_shadow.png::CompressedTexture2D::4668018078467755571::1695668179::1708801367::1::::<><>::
-::res://characters/happy_boo/::1708820757
+::res://characters/happy_boo/::1708831328
 happy_boo.gd::GDScript::-1::1695668179::0::1::::<>Node2D<>::
-happy_boo.tscn::PackedScene::31049085407951015::1708820757::0::1::::<><>::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://cksiu5gst6fmp::::res://characters/happy_boo/square_body.png<>uid://cvs0lh814pk7h::::res://characters/happy_boo/square_face.png
+happy_boo.tscn::PackedScene::31049085407951015::1708831328::0::1::::<><>::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://cksiu5gst6fmp::::res://characters/happy_boo/square_body.png<>uid://cvs0lh814pk7h::::res://characters/happy_boo/square_face.png
 square_body.png::CompressedTexture2D::5512411640973615011::1695668179::1708801367::1::::<><>::
 square_face.png::CompressedTexture2D::6285503871772747319::1695668179::1708801367::1::::<><>::
 square_foot.png::CompressedTexture2D::926853635980280533::1695668179::1708801367::1::::<><>::
