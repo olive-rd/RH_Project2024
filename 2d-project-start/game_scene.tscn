@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3 uid="uid://ulgeq1vv3ji6"]
+[gd_scene load_steps=42 format=3 uid="uid://ulgeq1vv3ji6"]
 
 [ext_resource type="Script" path="res://game_scene.gd" id="1_epjn3"]
 [ext_resource type="Texture2D" uid="uid://bedsvpug8awp5" path="res://tf_jungle/tf_jungle_tileset.png" id="2_1ilj6"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://ba0bwmr2hnkm5" path="res://TREEEEEE.tscn" id="4_lik3x"]
 [ext_resource type="PackedScene" uid="uid://jex3ysypw5v2" path="res://TREE2.tscn" id="6_af84h"]
 [ext_resource type="FontFile" uid="uid://dagn713dlhc0x" path="res://pansyhand.ttf" id="7_xpxqa"]
+[ext_resource type="AudioStream" uid="uid://dfn8rn5qxq8sw" path="res://Of Far Different Nature - 8-Bit Hero Quest (CC-BY).ogg" id="8_nvvv5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ecmik"]
 texture = ExtResource("2_1ilj6")
@@ -804,6 +805,10 @@ theme_override_fonts/font = ExtResource("7_xpxqa")
 theme_override_font_sizes/font_size = 400
 text = "Game Over"
 horizontal_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_nvvv5")
+autoplay = true
 
 [connection signal="game_over" from="CharacterBody2D" to="." method="_on_character_body_2d_game_over"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
