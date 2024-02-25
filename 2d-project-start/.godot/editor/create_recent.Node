@@ -1,5 +1,5 @@
-AudioStreamPlayer
 Label
+AudioStreamPlayer
 ColorRect
 CanvasLayer
 CanvasGroup
@@ -12,4 +12,3 @@ Timer
 Marker2D
 Sprite2D
 Camera2D
-TileMap
